@@ -1,4 +1,4 @@
-# NX本地宝
+# NXLocalTreasure
 
 ### Introduction：
 
@@ -16,4 +16,4 @@ NX本地宝微信小程序开发。
 
 4. 利用官方开发工具打开项目，执行普通编译
 
-   # NXLocalTreasure
+   # 
