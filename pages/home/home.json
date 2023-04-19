@@ -1,0 +1,7 @@
+{
+    "usingComponents": {
+        "van-grid": "/weapp/grid/index",
+        "van-grid-item": "/weapp/grid-item/index",
+        "van-search": "/weapp/search/index"
+    }
+}

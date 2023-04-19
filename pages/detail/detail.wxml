@@ -1,0 +1,23 @@
+<!--pages/detail/detail.wxml-->
+<view class="detail">
+    <van-card wx:if="{{detail.id}}" tag="{{detail.tag}}" title="{{detail.name}}" thumb="{{ detail.images[0]}}">
+        <view slot="desc">
+            <view bindtap="makePhoneCall" data-phone="{{detail.phone}}">
+                联系电话：{{detail.phone}}
+            </view>
+            <view>
+                联系地址：{{detial.address}}
+            </view>
+            <view>
+                营业时间：{{detail.businessHours}}
+            </view>
+        </view>
+    </van-card>
+    <van-cell-group inset wx:for="{{detail.comments}}" wx:key="*this" tag="{{item.tags}}" class="cell">
+        <van-panel title="{{item.name}}" desc="{{item.date}}" status="{{item.rating}}">
+            <view class="content">{{item.content}}</view>
+        </van-panel>
+
+    </van-cell-group>
+
+</view>

@@ -1,0 +1,8 @@
+{
+    "usingComponents": {
+        "van-card": "/weapp/card/index",
+        "loading": "/components/loading/loading"
+    },
+    "backgroundColor": "#000",
+    "enablePullDownRefresh": true
+}

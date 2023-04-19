@@ -1,0 +1,10 @@
+{
+    "usingComponents": {
+        "van-index-bar": "/weapp/index-bar/index",
+        "van-index-anchor": "/weapp/index-anchor/index",
+        "van-notify": "/weapp/notify/index",
+        "van-swipe-cell": "/weapp/swipe-cell/index",
+        "van-cell": "/weapp/cell/index",
+        "van-cell-group": "/weapp/cell-group/index"
+    }
+}

@@ -1,0 +1,5 @@
+<!--components/loading/loading.wxml-->
+<!-- <text>components/loading/loading.wxml</text> -->
+<view wx:if="{{hasMore}}" class="loadmore loading">
+  正在加载...</view>
+<view wx:else class="loadmore">no more details...</view>

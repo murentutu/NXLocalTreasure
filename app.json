@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/list/list",
+    "pages/message/message",
+    "pages/profile/profile",
+    "pages/search/search",
+    "pages/detail/detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#4fc08d",
+    "navigationBarTitleText": "宁乡本地宝",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/tabs/home.png",
+        "selectedIconPath": "/tabs/home-active.png"
+        },
+        {
+          "pagePath": "pages/message/message",
+          "text": "日志",
+          "iconPath": "/tabs/message.png",
+          "selectedIconPath": "/tabs/message-active.png"
+        },
+        {
+            "pagePath": "pages/profile/profile",
+            "text": "个人信息页",
+            "iconPath": "/tabs/profile.png",
+            "selectedIconPath": "/tabs/profile-active.png"
+        }
+      ]
+    },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

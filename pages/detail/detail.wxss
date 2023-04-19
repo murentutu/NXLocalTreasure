@@ -1,0 +1,12 @@
+/* pages/detail/detail.wxss */
+.detail .content{
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 200rpx 0; */
+    margin: 10px 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+/* .detail .cell{
+    height: 20px;
+} */

@@ -1,0 +1,18 @@
+<!--pages/list/list.wxml-->
+<view class="shops">
+    <van-card wx:for="{{shops}}" wx:key="*this" tag="{{item.tags}}"title="{{item.name}}" thumb="{{ item.images[0] }}" thumb-link="/pages/detail/detail?id={{item.id}}">
+        <view slot="desc">
+            <view bindtap="makePhoneCall" data-phone="{{item.phone}}">
+                联系电话：{{item.phone}}
+            </view>
+            <view>
+                联系地址：{{item.address}}
+            </view>
+            <view>
+                营业时间：{{item.businessHours}}
+            </view>
+        </view>
+    </van-card>
+    <!-- loading -->
+    <loading hasMore="{{hasMore}}"></loading>
+</view>

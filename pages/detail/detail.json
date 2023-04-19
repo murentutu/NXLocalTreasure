@@ -1,0 +1,9 @@
+{
+    "usingComponents": {
+        "van-card": "/weapp/card/index",
+        "loading": "/components/loading/loading",
+        "van-cell": "/weapp/cell/index",
+        "van-cell-group": "/weapp/cell-group/index",
+        "van-panel": "/weapp/panel/index"
+    }
+}
